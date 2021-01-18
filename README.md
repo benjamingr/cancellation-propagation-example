@@ -21,3 +21,15 @@ strictEqual(count, 1);
 ```
 
 This means that instead of passing `signal` everywhere you can just call the `signal()` function and access the abort signal from context.
+
+### License
+
+MIT, or if you want I will let you use this code any other license if you ask :]
+
+### Contributing
+
+Please check this code out and tell me if it works for you or if you think it's a good idea.
+
+### Code Of Conduct
+
+This project uses the Contributor Covenant Code of Conduct. Reports go to benjamingr @ gmail
