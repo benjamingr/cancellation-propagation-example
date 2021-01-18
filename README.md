@@ -12,7 +12,7 @@ setTimeout(() => ac.abort(), 10);
 let count = 0;
 await withCancel(async () => { // wrap with an IIFE if you don't have TLA enabled
     try {
-        await timersPromises.setTimeout(60000, 0, { signal: ac.signal });
+        await timersPromises.setTimeout(60000, 0, { signal: signal() });
     } catch (e) {
         count++;
     }
