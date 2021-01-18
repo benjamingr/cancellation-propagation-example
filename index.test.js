@@ -1,7 +1,6 @@
 import * as timersPromises from 'timers/promises'
 import { withCancel, signal } from './index.js'
-import { strict, strictEqual } from 'assert';
-import { time } from 'console';
+import { strictEqual } from 'assert';
 
 describe('async abort signal', () => {
     it('exposes a signal inside functions', () => {
