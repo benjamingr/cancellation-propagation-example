@@ -48,7 +48,7 @@ describe('async abort signal', () => {
         let count = 0;
         await withCancel(async () => {
             try {
-                await timersPromises.setTimeout(60000, 0, { signal: ac.signal });
+                await timersPromises.setTimeout(60000, 0, { signal: signal() });
             } catch (e) {
                 count++;
             }
